@@ -11,8 +11,7 @@ import { seedSanityData } from "@/lib/seed"
 
 interface Props {}
 
-export default async function Page() {
-  await seedSanityData();
+export default function Page() {
   return (
     <div>
       <div className="px-4 pt-20 text-center">
